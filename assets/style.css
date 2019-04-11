@@ -1,0 +1,52 @@
+body{
+    font-family: sans-serif; 
+}
+.content{
+    display:flex;
+}
+.col{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label, input, p{
+    margin: 8px 0;
+
+}
+input{
+    border: solid 1px #ccc;
+    width: 100%;
+}
+
+button{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    background-color: purple;
+    width: 100%;
+    color: white;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+th{
+    background: gray;
+    color: black;
+}
+td, th{
+    padding: 10px 16px;
+    text-align: center;
+}
+
+.linha1 {padding: 10px; background: rgb(221, 221, 139)}
+.linha2 {padding: 10px; background: rgb(214, 131, 131)}
+.linha3 {padding: 10px; background:rgb(206, 122, 206)}
+.linha4 {padding: 10px; background: rgb(124, 187, 124)}
+.linha5 {padding: 10px; background: rgb(132, 132, 211)}
